@@ -1,27 +1,32 @@
-# AngularTourOfHeroes
+# Tour Of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+## About
 
-## Development server
+The Tour of Heroes app helps a staffing agency manage its stable of heroes. The app has many of the features you'd expect to find in any data-driven application. The finished app acquires and displays a list of heroes, edits a selected hero's detail, and navigates among different views of heroic data.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## What is the purpose of this project?
 
-## Code scaffolding
+I mastered basic concept of Angular 9.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## URL
 
-## Build
+Open this code on [stackblitz](http://stackblitz.com/github/Naks2121/tour-of-heroes)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## You can run this project locally just do:
 
-## Running unit tests
+* clone branch review with git clone https://github.com/Naks2121/tour-of-heroes.git or fork it and then clone it from your forked repo
+* cd angular-tour-of-heroes
+* npm install
+* ng serve -o
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Application architecture
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Used built-in Angular directives to show and hide elements and display lists of hero data.
+* Created Angular components to display hero details and show an array of heroes.
+* Used one-way data binding for read-only data.
+* Added editable fields to update a model with two-way data binding.
+* Created bind component methods to user events, like keystrokes and clicks.
+* Enabled users to select a hero from a master list and edit that hero in the details view.
+* Formatted data with pipes.
+* Created a shared service to assemble the heroes.
+* Used routing to navigate among different views and their components.
